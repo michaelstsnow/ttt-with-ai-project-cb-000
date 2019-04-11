@@ -98,10 +98,10 @@ class Game
     puts "Welcome to the ultimate game of Tic-tac-toe"
     puts "Please enter how many players are going"
     players = gets.chomp
-    if players == 2
+    if players == "2"
       initialize
       play
-    elsif players ==1
+    elsif players == "1"
       initialize(Players::Human.new("X"),Players::Computer.new("O"),Board.new)
       play
     else
