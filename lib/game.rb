@@ -96,6 +96,7 @@ class Game
 
   def start
     puts "Welcome to the ultimate game of Tic-tac-toe"
+    puts "Please enter how many players are going"
   end
 
 end
