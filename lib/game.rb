@@ -99,11 +99,12 @@ class Game
     puts "Please enter how many players are going"
     players = gets.chomp
     if players == 2
-
+      initialize
+      play
     elsif players ==1
 
     else
-      initialize
+
     end
   end
 
