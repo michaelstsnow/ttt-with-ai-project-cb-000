@@ -95,7 +95,7 @@ class Game
   end
 
   def start
-    play
+    puts "Welcome to the ultimate game of Tic-tac-toe"
   end
 
 end
