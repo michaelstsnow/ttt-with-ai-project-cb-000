@@ -102,7 +102,7 @@ class Game
       initialize
       play
     elsif players ==1
-      initialize(player_1 = Players::Human.new("X"), player_2 = Players::Human.new("O"), board = Board.new)
+      initialize(player_1 = Players::Human.new("X"), player_2 = Players::Computer.new("O"), board = Board.new)
       play
     else
       initialize(player_1 = Players::Human.new("X"), player_2 = Players::Human.new("O"), board = Board.new)
