@@ -95,6 +95,7 @@ class Game
   end
 
   def start
+    play
   end
 
 end
