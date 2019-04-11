@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
+my_game=Game.new
+my_game.start
